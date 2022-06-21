@@ -1,13 +1,13 @@
 Hi 👋, I'm Tanzeel Akhtar, a passionate frontend developer from Pakistan.
 
-This is a **README** file of [Xuora Repository](https://github.com/tanzeelNiazi/sartle). It can help you extract important information about the project without digging through all the code. If you have any question please contact me at tanzeel.website@gmail.com
+This is a **README** file of [Xuora Repository](https://tanzeelniazi.github.io/xuora/). It can help you extract important information about the project without digging through all the code. If you have any question please contact me at tanzeel.website@gmail.com
 
 # Project Name: Xuora
 
 - Xuora is service that can help you show all your services in one place.
 - Desktop only
 
-### Website Demo: [https://tanzeel.website/](https://tanzeel.website)
+### Website Demo: [https://tanzeelniazi.github.io/xuora/](https://tanzeelniazi.github.io/xuora/)
 
 # Additional Information
 
@@ -43,3 +43,4 @@ Visit [www.tanzeel.website](http://www.tanzeel.website) or contact me on tanzeel
 Following Images/Designs/Icons are used for creation of this website:
 
 - [Sass Landing Page](https://www.behance.net/gallery/140213347/Saas-landing-page/modules/792313271)
+- [Xuora Icon](https://iconmonstr.com/product-6-png/)

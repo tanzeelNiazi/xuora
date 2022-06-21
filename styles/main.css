@@ -42,4 +42,54 @@ body {
   grid: 1fr/repeat(4, 1fr);
 }
 
+.navbar {
+  padding: 1.6rem 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 20rem;
+}
+.logo__image {
+  width: 100%;
+}
+
+.product-nav {
+  grid-column: 2/span 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.user-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.8rem;
+}
+
+.nav-link {
+  padding: 0.8rem 2.4rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+.nav-link:link, .nav-link:visited {
+  color: #0a083b;
+}
+.nav-link:hover, .nav-link:active {
+  color: #fd4b1b;
+}
+
+.nav-cta:link, .nav-cta:visited {
+  background: #fd4b1b;
+  color: #fffcfb;
+  border-radius: 20px;
+}
+.nav-cta:hover, .nav-cta:active {
+  background: #0a083b;
+}
+
 /*# sourceMappingURL=main.css.map */

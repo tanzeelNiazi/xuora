@@ -1,0 +1,59 @@
+.navbar {
+  padding: $unit__normal 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 20rem;
+
+  &__image {
+    width: 100%;
+  }
+}
+
+.product-nav {
+  grid-column: 2 / span 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: $unit__small;
+}
+
+.user-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: $unit__small;
+}
+
+.nav-link {
+  padding: $unit__small $unit__submedium;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: all 0.3s;
+
+  &:link,
+  &:visited {
+    color: $color__dark;
+  }
+
+  &:hover,
+  &:active {
+    color: $color__secondary;
+  }
+}
+
+.nav-cta {
+  &:link,
+  &:visited {
+    background: $color__secondary;
+    color: $color__light;
+    border-radius: 20px;
+  }
+
+  &:hover,
+  &:active {
+    background: $color__dark;
+  }
+}
