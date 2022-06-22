@@ -44,3 +44,4 @@ Following Images/Designs/Icons are used for creation of this website:
 
 - [Sass Landing Page](https://www.behance.net/gallery/140213347/Saas-landing-page/modules/792313271)
 - [Xuora Icon](https://iconmonstr.com/product-6-png/)
+- [Growth Vector](https://www.freepik.com/free-vector/crew-creator-building-new-company-utilize-analitics-gathering-statistic-start-production-technology-staff-operating-startup-industry-growth-vector-isolated-concept-metaphor-illustration_12470237.htm)

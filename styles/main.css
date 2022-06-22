@@ -24,6 +24,7 @@ a {
 body {
   font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
+  color: #0a083b;
 }
 
 .grid {
@@ -90,6 +91,108 @@ body {
 }
 .nav-cta:hover, .nav-cta:active {
   background: #0a083b;
+}
+
+/* HERO SECTION */
+.hero {
+  align-items: center;
+  justify-content: center;
+}
+
+.description {
+  justify-self: center;
+}
+.description__title {
+  font-size: 6.4rem;
+  text-transform: capitalize;
+}
+.description__title span {
+  color: #fd4b1b;
+}
+.description__title .apps {
+  position: relative;
+  display: inline-block;
+  width: auto;
+  height: 12rem;
+}
+.description__title .apps::before, .description__title .apps::after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  z-index: -1;
+}
+.description__title .apps::before {
+  width: 100%;
+  height: 100%;
+  background: #a57ff7;
+}
+.description__title .apps::after {
+  width: 101%;
+  height: 88%;
+  transform: rotate(4deg) translate(-1px, -3px) scale(1.1);
+  background: #fff;
+}
+.description__detail {
+  margin: 2.4rem auto;
+  line-height: 1.6;
+}
+.description__link {
+  display: inline-block;
+  margin: 1.6rem auto;
+  padding: 1.6rem 6.4rem;
+  text-transform: capitalize;
+  transition: all 0.3s;
+}
+.description__link:link, .description__link:visited {
+  background: #fd4b1b;
+  border-radius: 10px;
+  color: #fffcfb;
+}
+.description__link:hover, .description__link:active {
+  background: #0a083b;
+}
+
+.artwork {
+  justify-self: end;
+  width: 55rem;
+}
+.artwork__image {
+  width: 100%;
+}
+
+/* COMPANIES SECTION */
+.section-companies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.section-companies .title {
+  font-size: 3.2rem;
+  margin: 3.2rem auto;
+}
+
+.companies {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+.company {
+  width: 20rem;
+  height: auto;
+}
+.company__image {
+  cursor: pointer;
+  width: 100%;
+  filter: grayscale(1);
+}
+.company__image:hover {
+  filter: grayscale(0);
 }
 
 /*# sourceMappingURL=main.css.map */
