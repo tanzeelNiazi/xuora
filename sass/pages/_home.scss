@@ -117,3 +117,147 @@
     }
   }
 }
+
+/* FEATURES SECTION */
+.section-features {
+  padding-top: $unit__gigantic;
+  margin: $unit__medium auto;
+  background: linear-gradient(
+    rgba($color__secondary, 0.03),
+    rgba($color__primary, 0.03) 20% 100%
+  );
+}
+
+.features {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &__span {
+    color: $color__primary;
+    font-weight: bold;
+  }
+
+  &__title {
+    font-size: $unit__medium;
+    padding: $unit__normal 0;
+  }
+
+  &__detail {
+    width: 50%;
+    text-align: center;
+    line-height: 1.8;
+  }
+}
+
+.service-features {
+  margin: $unit__submedium;
+  gap: $unit__medium;
+}
+
+.feature {
+  padding: $unit__medium $unit__huge;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: $unit__normal;
+  background: $color__light;
+  box-shadow: 0 2px 3px rgba(68, 68, 68, 0.25);
+  border-radius: 10px;
+}
+
+/* SECTION MARKETING */
+
+.section-marketing {
+  margin: $unit__gigantic auto;
+}
+
+.marketing {
+  align-items: start;
+  justify-content: start;
+}
+.marketing__title {
+  font-size: $unit__large * 0.75;
+}
+
+/* SECTION TEAM */
+.section-team {
+  margin: $unit__gigantic auto;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &__title {
+    font-size: $unit__medium;
+  }
+
+  &__description {
+    margin: $unit__medium auto;
+    text-align: center;
+    width: 50%;
+  }
+}
+
+.members {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: $unit__large;
+}
+
+.member {
+  overflow: hidden;
+  border-radius: 20px;
+  background: rgba($color__primary, 0.1);
+  box-shadow: 0 2px 2px #bbb;
+  transition: all 0.3s;
+
+  .title {
+    display: block;
+    color: $color__secondary;
+  }
+
+  .cta {
+    margin-top: $unit__small;
+    padding: $unit__tiny $unit__normal;
+    border-radius: 20px;
+    transition: all 0.3s;
+    &:link,
+    &:visited {
+      background: $color__primary;
+      color: $color__light;
+    }
+
+    &:hover,
+    &:active {
+      background: $color__secondary;
+    }
+  }
+
+  .detail {
+    padding: $unit__normal 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.member:hover {
+  transform: translateY(-3px) scale(1.1);
+  box-shadow: 0 4px 5px #ddd;
+}
+.image-container {
+  width: 25rem;
+}
+
+.member__image {
+  width: 100%;
+}

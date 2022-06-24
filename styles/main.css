@@ -21,6 +21,11 @@ a {
   min-height: 50rem;
 }
 
+.svg-icon {
+  width: 6.4rem;
+  height: 6.4rem;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
@@ -193,6 +198,137 @@ body {
 }
 .company__image:hover {
   filter: grayscale(0);
+}
+
+/* FEATURES SECTION */
+.section-features {
+  padding-top: 12.8rem;
+  margin: 3.2rem auto;
+  background: linear-gradient(rgba(253, 75, 27, 0.03), rgba(165, 127, 247, 0.03) 20% 100%);
+}
+
+.features {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.features__span {
+  color: #a57ff7;
+  font-weight: bold;
+}
+.features__title {
+  font-size: 3.2rem;
+  padding: 1.6rem 0;
+}
+.features__detail {
+  width: 50%;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.service-features {
+  margin: 2.4rem;
+  gap: 3.2rem;
+}
+
+.feature {
+  padding: 3.2rem 6.4rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.6rem;
+  background: #fffcfb;
+  box-shadow: 0 2px 3px rgba(68, 68, 68, 0.25);
+  border-radius: 10px;
+}
+
+/* SECTION MARKETING */
+.section-marketing {
+  margin: 12.8rem auto;
+}
+
+.marketing {
+  align-items: start;
+  justify-content: start;
+}
+
+.marketing__title {
+  font-size: 3.6rem;
+}
+
+/* SECTION TEAM */
+.section-team {
+  margin: 12.8rem auto;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.team__title {
+  font-size: 3.2rem;
+}
+.team__description {
+  margin: 3.2rem auto;
+  text-align: center;
+  width: 50%;
+}
+
+.members {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4.8rem;
+}
+
+.member {
+  overflow: hidden;
+  border-radius: 20px;
+  background: rgba(165, 127, 247, 0.1);
+  box-shadow: 0 2px 2px #bbb;
+  transition: all 0.3s;
+}
+.member .title {
+  display: block;
+  color: #fd4b1b;
+}
+.member .cta {
+  margin-top: 0.8rem;
+  padding: 0.4rem 1.6rem;
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+.member .cta:link, .member .cta:visited {
+  background: #a57ff7;
+  color: #fffcfb;
+}
+.member .cta:hover, .member .cta:active {
+  background: #fd4b1b;
+}
+.member .detail {
+  padding: 1.6rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.member:hover {
+  transform: translateY(-3px) scale(1.1);
+  box-shadow: 0 4px 5px #ddd;
+}
+
+.image-container {
+  width: 25rem;
+}
+
+.member__image {
+  width: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */
