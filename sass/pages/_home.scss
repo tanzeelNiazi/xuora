@@ -261,3 +261,62 @@
 .member__image {
   width: 100%;
 }
+
+/* TESTIMONIALS SECTION  */
+
+.section-testimonials {
+  margin: $unit__huge auto;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &__title {
+    font-size: $unit__medium;
+    text-transform: capitalize;
+  }
+}
+
+.clients {
+  margin: $unit__large auto;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: $unit__medium;
+}
+
+.client {
+  border-radius: 20px;
+  padding: $unit__medium;
+  box-shadow: 0 5px 20px rgba($color__secondary, 0.15);
+  border: 2px solid $color__secondary;
+
+  &__detail {
+    margin: $unit__submedium auto;
+    line-height: 1.6;
+  }
+}
+
+.client__quote {
+  fill: rgba($color__secondary, 0.75);
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: $unit__normal;
+}
+
+.avatar {
+  width: 9rem;
+
+  &__image {
+    border-radius: 50%;
+    width: 100%;
+  }
+}
